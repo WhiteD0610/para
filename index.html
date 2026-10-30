@@ -50,7 +50,7 @@
     </svg>
     <span class="en">BOCCIA</span>
     <h2>ボッチャ</h2>
-    <button class="btn" type="button" data-pdf="pdf/boccia.pdf" data-title="ボッチャ ルール">
+    <button class="btn" type="button" data-pdf="boccia.pdf" data-title="ボッチャ ルール">
       ルールを見る
       <svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 7h12M8 2l5 5-5 5"/></svg>
     </button>
@@ -64,7 +64,7 @@
     </svg>
     <span class="en">MÖLKKY</span>
     <h2>モルック</h2>
-    <button class="btn" type="button" data-pdf="pdf/molkky.pdf" data-title="モルック ルール">
+    <button class="btn" type="button" data-pdf="molkky.pdf" data-title="モルック ルール">
       ルールを見る
       <svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 7h12M8 2l5 5-5 5"/></svg>
     </button>
@@ -85,7 +85,7 @@
   pdfjsLib.GlobalWorkerOptions.workerSrc =
     'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
 
-  const ALLOWED = ['pdf/boccia.pdf', 'pdf/molkky.pdf'];
+  const ALLOWED = ['boccia.pdf', 'molkky.pdf'];
   const viewer = document.getElementById('viewer');
   const pages  = document.getElementById('vPages');
   const title  = document.getElementById('vTitle');
